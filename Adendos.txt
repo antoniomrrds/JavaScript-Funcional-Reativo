@@ -1,0 +1,9 @@
+Functions sao cidadaoes de primeira classe no javaScript
+
+
+O setInterval =  e uma funçao que nunca finalliza sempre chamando de acordo com o tempo passado pra ela
+
+O setTimeOut =  ja finaliza de acordo com o tempo passado
+
+event queue = e uma pilha de funcoes
+e o javaScript e single tread ou seja tem apenas uma execução
