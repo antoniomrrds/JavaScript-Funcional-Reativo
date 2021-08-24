@@ -7,3 +7,6 @@ O setTimeOut =  ja finaliza de acordo com o tempo passado
 
 event queue = e uma pilha de funcoes
 e o javaScript e single tread ou seja tem apenas uma execução
+Funcoes principais do JS || ecms
+map = irá  varer o array e testara a funcao em cada elemento 
+filter = irá filtar os elemento que passarem na condição da função 
