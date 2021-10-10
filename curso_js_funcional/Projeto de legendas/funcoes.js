@@ -101,6 +101,7 @@ function ordernarPorAtribNumerico(attr, ordem = 'asc') {
     }
 }
 
+
 module.exports = {
     composicao,
     lerDiretorio,
