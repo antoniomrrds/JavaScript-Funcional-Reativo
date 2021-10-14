@@ -10,3 +10,5 @@ e o javaScript e single tread ou seja tem apenas uma execução
 Funcoes principais do JS || ecms
 map = irá  varer o array e testara a funcao em cada elemento 
 filter = irá filtar os elemento que passarem na condição da função 
+
+usando o rxjs => npm i rxjs
