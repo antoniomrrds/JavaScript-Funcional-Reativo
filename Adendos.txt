@@ -12,3 +12,5 @@ map = irá  varer o array e testara a funcao em cada elemento
 filter = irá filtar os elemento que passarem na condição da função 
 
 usando o rxjs => npm i rxjs
+
+fill= o metodo fil preencher com os valore undefined e usando para preencher um Array
