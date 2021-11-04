@@ -1,17 +1,9 @@
-function spinalCase(str) {
-for (let index = 0; index < str.length; index++) {
-  const regex = /[A-Z]/g
-  let test =regex.exe(str)
-  console.log(test.length)
-  
+const  spinalCase = (str) => {
+  const regex = /([a-z]+|[A-Z])[a-z]+/g
+  const test = str.match(regex)
+  return test.join('-').toLowerCase();
 }
-
-//  let resultWord =test.trim().split(' ').join('-').toLowerCase().replaceAll('_','-')
-  // return resultWord;
-  // return test;
-}
-
-let r = 
+const result  = 
 spinalCase("thisIsSpinalTap")
-// spinalCase('  This Is Spinal Tap');
-console.log(r)
+// spinalCase(' ThisIsSpinalTap ');
+console.log(result)
